@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane
+  xmlns:fx="http://javafx.com/fxml"
+  fx:id="mainBorderPane"
+  fx:controller="pboex.controller.MainController"
+  prefHeight="600.0"
+  prefWidth="400.0"
+>
+  <top>
+    <VBox alignment="CENTER" spacing="8">
+      <Label fx:id="todoAppTitleLabel" text="PBO To-Do App" />
+      <Label fx:id="todoAppVersionLabel" text="Version 0.0.1-alpha" />
+      <Separator />
+    </VBox>
+  </top>
+  <center>
+    <StackPane fx:id="pageHolder"/>
+  </center>
+</BorderPane>

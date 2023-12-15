@@ -1,0 +1,15 @@
+#todoAppTitleLabel {
+  -fx-font-size: 24px;
+  -fx-text-fill: "black";
+}
+
+#todoAppVersionLabel {
+  -fx-font-size: 12px;
+  -fx-text-fill: "gray";
+}
+
+#pageHolder {
+  -fx-padding: 5px;
+  -fx-border-insets: 5px;
+  -fx-background-insets: 5px;
+}
